@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zip Code Locator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Zip Code Locator</h1>
+        <p>Enter a zip code to find location details.</p>
+    </header>
+
+    <main>
+        <section id="search-section">
+            <form id="zipForm">
+                <label for="zipcode">Enter Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode" maxlength="5" required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="result-section">
+            <h2>Location Details</h2>
+            <div id="location-info"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by the Zippopotam.us API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
